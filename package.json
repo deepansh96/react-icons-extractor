@@ -1,0 +1,38 @@
+{
+  "name": "react-icons-extractor",
+  "version": "1.0.0",
+  "description": "Extract all SVG icons from react-icons package into individual SVG files organized by families",
+  "main": "extract-icons-improved.js",
+  "scripts": {
+    "extract": "node extract-icons-improved.js",
+    "extract-simple": "node extract-icons.js",
+    "analyze": "node analyze-extraction.js"
+  },
+  "keywords": [
+    "react-icons",
+    "svg",
+    "icons",
+    "extractor",
+    "ant-design",
+    "bootstrap-icons",
+    "font-awesome",
+    "material-design",
+    "feather-icons"
+  ],
+  "author": "React Icons Extractor",
+  "license": "MIT",
+  "dependencies": {
+    "react-icons": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/react-icons-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/react-icons-extractor/issues"
+  },
+  "homepage": "https://github.com/your-username/react-icons-extractor#readme"
+}
